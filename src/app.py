@@ -35,3 +35,9 @@ def square(a):
 
 def cube(a):
 	return a*a*a
+
+def power(a,b):
+	return math.pow(a,b)
+
+def factorial(a):
+	return math.factorial(a)

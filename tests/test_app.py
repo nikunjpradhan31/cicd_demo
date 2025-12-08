@@ -124,3 +124,17 @@ def test_cube2():
 
 def test_cube3():
     assert cube(0) == 0
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1         
+    assert power(0, 5) == 0          
+    assert power(0, 0) == 1        
+    assert power(2, -2) == 0.25    
+
+def test_factorial():
+    assert factorial(0) == 1     
+    assert factorial(1) == 1
+    assert factorial(5) == 120
+    assert factorial(10) == 3628800
